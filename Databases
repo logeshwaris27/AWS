@@ -65,3 +65,72 @@ The database supports High availability and durability, and you can run it serve
 With Aurora, you also can run the database with multi-Regional replicas.
 Performance and availability of commercial-grade databases at 1/10th the cost.
 
+Amazon RDS
+
+You can choose Amazon Relational Database Service (Amazon RDS) to launch the database in the Multi-AZ configuration if you want to deploy it for high availability (HA).
+The service will launch the primary and standby databases in different Availability Zones and set up synchronous replication of data and failover strategy. 
+If the primary database goes down, the standby picks up the traffic.
+
+Managed relational database—Amazon RDS
+
+Amazon RDS is a web service that makes it easier to set up, operate, and scale a relational database in the AWS Cloud. It provides cost-efficient, resizable capacity for an industry-standard relational database and manages common database administration tasks.
+
+Managed means you still have the power to decide how the database will be launched, but Amazon RDS will launch it for you. You can set up, operate, and scale a relational database in the cloud with just a few clicks. Amazon RDS is compatible with multiple engines, and you can use it to launch the Amazon Aurora database. 
+
+Choose from seven popular engines: Amazon Aurora with MySQL compatibility, Amazon Aurora with PostgreSQL compatibility, MySQL, MariaDB, PostgreSQL, Oracle, and SQL Server.
+
+Amazon Redshift
+
+Amazon Redshift is a data warehouse service that provides benefits from columnar storage. 
+With this approach, you can perform complex queries on your data, helping you run online analytical processing (OLAP) workloads.
+
+Amazon DynamoDB
+
+With DynamoDB, you can achieve single-digit millisecond performance at any scale.
+It is a fully managed, serverless, nonrelational database.
+DynamoDB is a great choice when you're looking for seamless database scalability. DynamoDB will automatically scale to meet demand.
+DynamoDB is also an excellent choice for workloads that involve working with databases, flexible schemas, and high throughput (with many read/write requests). 
+
+Amazon ElastiCache
+
+Unlock microsecond latency 
+Scalable caching service
+
+Amazon MemoryDB for Redis
+
+Compatible 
+ Durable
+
+Amazon DocumentDB (with MongoDB compatibility)
+
+Scale JSON workloads with ease
+Use an enterprise-ready document database service compatible with MongoDB
+
+Amazon Keyspaces
+
+Scalable
+Highly available 
+Run your Apache Cassandra workloads
+
+Amazon Neptune
+
+Amazon Neptune is used for simplifying the setup and running of your graph databases. 
+This helps you run databases aware of relationships between data. 
+Amazon Neptune can be useful for fraud detection, social media, and similar applications.
+Build applications that work with highly connected datasets. 
+
+Amazon Timestream
+
+Fast
+Scalable
+Store and analyze trillions of events per day
+
+Amazon Quantum Ledger Database (Amazon QLDB)
+
+Provides logs that are as follows:
+
+Transparent
+Immutable
+Cryptographically verifiable
+
+
